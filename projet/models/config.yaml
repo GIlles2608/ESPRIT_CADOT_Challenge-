@@ -1,0 +1,29 @@
+# Chemins des données
+train: C:/Users/Gilles2608/Documents/Projet perso/Computer vision Hackaton/CADOT_Dataset/train/images
+val: C:/Users/Gilles2608/Documents/Projet perso/Computer vision Hackaton/CADOT_Dataset/valid/images
+test: C:/Users/Gilles2608/Documents/Projet perso/Computer vision Hackaton/CADOT_Dataset/test
+
+# Classes
+nc: 15
+names:
+  - 'small-object'
+  - 'basketball field'
+  - 'building'
+  - 'crosswalk'
+  - 'football field'
+  - 'graveyard'
+  - 'large vehicle'
+  - 'medium vehicle'
+  - 'playground'
+  - 'roundabout'
+  - 'ship'
+  - 'small vehicle'
+  - 'swimming pool'
+  - 'tennis court'
+  - 'train'
+
+# Hyperparamètres
+batch_size: 16
+epochs: 150
+lr: 0.0001
+img_size: 640

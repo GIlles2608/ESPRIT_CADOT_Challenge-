@@ -1,0 +1,19 @@
+# Dossier de données
+/CADOT_Dataset/
+
+# Dossiers d'environnement et de configuration IDE
+/projet/env/
+/projet/.idea/
+/projet/.spyproject/
+
+# Fichiers spécifiques à ignorer
+/projet/models/model_weights.pt
+/projet/scripts/copy_bestModel.py
+/projet/scripts/runs/
+/projet/scripts/yolo11n.pt
+/projet/scripts/yolo8n.pt
+
+# Règles pour /projet/ :
+/projet/*            # Ignorer tous les fichiers à la racine de /projet/
+!/projet/requirements.txt  # Sauf ce fichier
+!/projet/**/         # Réautoriser tous les sous-dossiers (et leur contenu)
